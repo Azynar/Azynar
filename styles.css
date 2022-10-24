@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+
+body{
+  background-color: rgb(182, 175, 255);
+  padding: 10px;
+}
+.container{
+  background: #ffffff;
+  max-width: 500px;
+  width: 100%;
+  padding: 15px 20px;
+  margin: 10% auto;
+  height: auto;
+  border-radius: 10px;
+}
+.header{
+  display: block;
+  text-align: center;
+}
+.header h1{
+  color: rgb(72, 72, 236);
+  font-size: 40px;
+}
+
+.form{
+  background-color: white;
+  color: rgb(72, 72, 236);
+  font-size: 16px;
+}
+
+.form-control{
+  display: block;
+  margin: 20px 10px;
+}
+
+.form-control label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-control input{
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid rgb(135, 238, 135);
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:active{
+  border: transparent;
+}
+
+.forgot{
+  float: right;
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(135, 238, 135);
+}
+
+.checkbox{
+  margin-left: 10px;
+  color: #555555;
+}
+
+.forgot, .checkbox{
+  font-size: 12px;
+}
+
+
+input[type="checkbox"]{
+  margin-right: 5px;
+}
+
+button{
+  display: block;
+  border: none;
+  background-color: rgb(135, 238, 135);
+  color: #ffffff;
+  width: 70px;
+  height: 30px;
+  margin: 20px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #ffffff;
+  color: rgb(135, 238, 135);
+  border: 1px solid rgb(135, 238, 135);
+}
+
+p{
+  text-align: center;
+}
+
+.sign{
+  margin: 10px auto;
+}
